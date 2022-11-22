@@ -19,7 +19,9 @@
 
         a
             &:hover
-                color: variables.$primary-color
+                background: variables.$primary-color
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent 
 
     i
         margin-right: .3rem
@@ -64,7 +66,7 @@
                 transition: .4s
 
                 &:hover 
-                    color: variables.$primary-color
+                    background: variables.$primary-color
 
 
 

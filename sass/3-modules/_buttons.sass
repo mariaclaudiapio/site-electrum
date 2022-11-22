@@ -7,15 +7,18 @@
     border-radius: 20px
     font-weight: bold
     text-transform: uppercase
-    background-color: variables.$primary-color 
+    background: variables.$primary-color 
     cursor: pointer
     outline: none
-    border: 2px solid variables.$primary-color 
+    border: none
     transition: .4s
 
     &:hover 
         background-color: variables.$light-color
-        color: variables.$primary-color
+        color: variables.$secondary-color
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        border: 2px solid variables.$secondary-color
 
     &-half
         border-top-left-radius: 0

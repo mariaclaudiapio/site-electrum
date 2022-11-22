@@ -45,8 +45,13 @@
             font-size: 3rem
 
             i
-                color: variables.$primary-color 
+                background: variables.$primary-color
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent 
                 font-size: 2rem
+
+            .fa-bolt:hover
+                transform: scale(1.5)
 
         #search-form
             diplay: flex
